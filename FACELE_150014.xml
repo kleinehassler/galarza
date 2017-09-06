@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>NEPTALI SECUNDINO GALARZA LOPEZ</razonSocial>
+		<nombreComercial>NEPTALI SECUNDINO GALARZA LOPEZ</nombreComercial>
+		<ruc>0100912120001</ruc>
+		<claveAcceso>1506201501010091212000120020110000000321234567817</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>002</estab>
+		<ptoEmi>011</ptoEmi>
+		<secuencial>000000032</secuencial>
+		<dirMatriz>OLMEDO S/N E/ TARQUI Y COLON</dirMatriz>
+	</infoTributaria>
+    <infoFactura>
+    	<fechaEmision>15/06/2015</fechaEmision>
+    	<dirEstablecimiento>OLMEDO S/N E/ TARQUI Y COLON</dirEstablecimiento>
+    	<contribuyenteEspecial>00636</contribuyenteEspecial>
+    	<obligadoContabilidad>SI</obligadoContabilidad>
+    	<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    	<razonSocialComprador>PEREZ VALENCIA CRISTIAN ANDRES</razonSocialComprador>
+    	<identificacionComprador>0704754027001</identificacionComprador>
+    	<totalSinImpuestos>35.71</totalSinImpuestos>
+    	<totalDescuento>0.00</totalDescuento>
+    	<totalConImpuestos>
+	    	<totalImpuesto>
+	    		<codigo>2</codigo>
+	    		<codigoPorcentaje>2</codigoPorcentaje>
+	    		<baseImponible>35.71</baseImponible>
+	    		<valor>4.29</valor>
+	    	</totalImpuesto>
+    	</totalConImpuestos>
+    	<propina>0.00</propina>
+    	<importeTotal>40.00</importeTotal>
+    	<moneda>DOLAR</moneda>
+   	</infoFactura>
+   	<detalles>
+   		<detalle>
+   			<codigoPrincipal>59786</codigoPrincipal>
+   			<codigoAuxiliar>5691</codigoAuxiliar>
+   			<descripcion>VENTILADOR DPEDEST KO1803 3X1</descripcion>
+   			<cantidad>1.00</cantidad>
+   			<precioUnitario>35.71</precioUnitario>
+   			<descuento>0.00</descuento>
+   			<precioTotalSinImpuesto>35.71</precioTotalSinImpuesto>
+   			<impuestos>
+   				<impuesto>
+   					<codigo>2</codigo>
+   					<codigoPorcentaje>2</codigoPorcentaje>
+   					<tarifa>12.00</tarifa>
+   					<baseImponible>35.71</baseImponible>
+   					<valor>4.29</valor>
+   				</impuesto>
+   			</impuestos>
+   		</detalle>
+   	</detalles>
+<infoAdicional>
+    <campoAdicional nombre="Direccion">10 DE AGOSTO Y MARCEL LANIADO</campoAdicional>
+<campoAdicional nombre="Telefono">0995388068</campoAdicional>
+<campoAdicional nombre="Email">criaper84@hotmail.com</campoAdicional>
+</infoAdicional>
+</factura>
